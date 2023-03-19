@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class AreaCalculatorDemo {
     public static void main(String[] args) {
         System.out.println("""
-                1 - Square
-                2 - Triangle
-                3 - Circle
-                4 - Rectangle""");
+                Square
+                Triangle
+                Circle
+                Rectangle""");
         Scanner scanner = new Scanner(System.in);
         String shape = scanner.next();
 
